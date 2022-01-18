@@ -16,4 +16,3 @@ class ISBN:
             return False
         checksum = (10 - ((sum(data[:12])) % 10)) % 10
         return data[12] == checksum
-
